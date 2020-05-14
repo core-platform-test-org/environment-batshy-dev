@@ -1,0 +1,12 @@
+adminUser:
+  password: vault:batshy/adminUser:password
+  username: admin
+dashboardUrl: https://dashboard.play-jxaas.live
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:batshy/pipelineUser:token
+  username: cloudbees-ci-cd-play[bot]
+prow:
+  hmacToken: vault:batshy/prow:hmacToken
+segmentWriteKey: vault:batshy:segmentWriteKey
